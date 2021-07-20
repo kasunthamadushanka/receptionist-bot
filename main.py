@@ -6,7 +6,7 @@ Token =os.environ.get("BOT_TOKEN",None)
 updater = Updater( Token ,use_context = True )
 
 def start(updater,context):
- updater.message.reply_text('''𝓗𝓮𝔂, \n\nSorry. This Bot Only Works With 2021 A/L සෙට් එක 🏆. \n\n⚜️Join For Bot Updates⚜️ : @epusthakalaya_bots''')
+ updater.message.reply_text('''Sorry. This Bot Only Works With 2021 A/L සෙට් එක 🏆. \n\n⚜️Join For Bot Updates⚜️ : @epusthakalaya_bots''')
 
 def help(updater,context):
  updater.message.reply_text("➠ Join This group. \n\n➠ https://t.me/group2021AL\n\n⚜️Powered By⚜️ : @epusthakalaya_bots")\
