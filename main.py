@@ -6,10 +6,10 @@ Token =os.environ.get("BOT_TOKEN",None)
 updater = Updater( Token ,use_context = True )
 
 def start(updater,context):
- updater.message.reply_text('''𝓗𝓮𝔂, \n\n 𝓘 𝓪𝓶 𝐺𝑅𝑂𝑈𝑃 𝑅𝐸𝐶𝐸𝑃𝑇𝐼𝑂𝑁𝐼𝑆𝑇 𝐵𝑂𝑇. 𝓐𝓭𝓭 𝓶𝓮 𝓽𝓸 𝔂𝓸𝓾𝓻 𝓰𝓻𝓸𝓾𝓹 𝓪𝓷𝓭 𝓶𝓪𝓴𝓮 𝓶𝓮 𝓪𝓼 𝓐𝓭𝓶𝓲𝓷.\n𝓗𝓲𝓽 /help  𝓯𝓸𝓻 𝓶𝓸𝓻 𝓲𝓷𝓯𝓸 𝓪𝓫𝓸𝓾𝓽 𝓶𝓮.\n\n⚜️Powered By⚜️ : @epusthakalaya_bots''')
+ updater.message.reply_text('''𝓗𝓮𝔂, \n\nSorry. This Bot Only Works With 2021 A/L සෙට් එක 🏆. \n\n⚜️Join For Bot Updates⚜️ : @epusthakalaya_bots''')
 
 def help(updater,context):
- updater.message.reply_text("➠ 𝙰𝚍𝚍  𝙼𝚎  𝚃𝚘  𝙶𝚛𝚘𝚞𝚙\n\n➠ 𝙼𝚊𝚔𝚎  𝙰𝚍𝚖𝚒𝚗  𝙼𝚎\n\n⚜️Powered By⚜️ : @epusthakalaya_bots")\
+ updater.message.reply_text("➠ Join This group. \n\n➠ https://t.me/group2021AL\n\n⚜️Powered By⚜️ : @epusthakalaya_bots")\
  
 
 def add_group(update: Update, context: CallbackContext):
