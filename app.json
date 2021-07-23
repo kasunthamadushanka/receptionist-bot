@@ -1,13 +1,13 @@
 {
-  "name": "welcome bot",
+  "name": "Receptionist Bot",
   "description": "A telegram Welcome Bot",
   "logo": "https://telegra.ph/file/4968cf093ed8be7d8223a.jpg",
   "keywords": [
-    "Tg welcome bot","welcome bot"
+    "Tg welcome bot","welcome bot,receptionist bot"
   ],
-  "repository": "https://github.com/BXBotz/Welcome-Bot",
-  "success_url": "http://t.me/WelcomeBXBot",
-  "website": "https://github.com/BXBotz/Welcome-Bot",
+  "repository": "https://github.com/kasunthamadushanka/receptionist-bot",
+  "success_url": "http://t.me/GroupReceptionistBot",
+  "website": "https://github.com/kasunthamadushanka/receptionist-bot",
   "env": {
           "BOT_TOKEN": {"description": "Get Bot Token From @BotFather","required": true}
   },
